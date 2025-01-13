@@ -1,0 +1,20 @@
+.table {
+  width: 500px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.thead {
+  background-color: black;
+  color: white;
+}
+
+.item {
+  border: 1px solid black;
+  padding: 5px 40px;
+  text-transform: capitalize;
+}
+
+.listItem:nth-child(even) {
+  background-color: gray;
+}

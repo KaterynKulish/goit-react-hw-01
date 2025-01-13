@@ -1,0 +1,70 @@
+.profileWrapper {
+  position: relative;
+  width: 500px;
+  height: 550px;
+  padding-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.card {
+  margin: 0 auto;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.userName {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: gray;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.list {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  border-top: 3px solid gray;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  background-color: lightgray;
+  font-size: 20px;
+}
+
+.item:nth-child(2) {
+  border-right: 3px solid gray;
+  border-left: 3px solid gray;
+}
+
+.itemStats {
+  font-weight: 700;
+}
